@@ -16,7 +16,7 @@ After updating composer, add the component to the `components` array and `bootst
 'bootstrap' => ['log', 'ideHelper'],
 'components' => [
     'ideHelper' => [
-        'class' => 'Hl56\IdeHelper\IdeHelper',
+        'class' => 'hl56\IdeHelper\IdeHelper',
     ],
 ],
 ```
@@ -31,7 +31,7 @@ Now you can generate ide helper file by command:
 
 ```php
 'ideHelper' => [
-    'class' => 'Hl56\IdeHelper\IdeHelper',
+    'class' => 'hl56\IdeHelper\IdeHelper',
     'rootDir' => dirname(dirname(__DIR__)),
 ],
 ```

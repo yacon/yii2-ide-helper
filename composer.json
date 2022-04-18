@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hl56\\IdeHelper\\": "src"
+            "hl56\\IdeHelper\\": "src"
         }
     },
     "extra": {
