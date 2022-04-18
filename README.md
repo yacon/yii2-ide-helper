@@ -32,7 +32,7 @@ Now you can generate ide helper file by command:
 ```php
 'ideHelper' => [
     'class' => 'Hl56\IdeHelper\IdeHelper',
-    'rootDir' => dirname(__DIR__),
+    'rootDir' => dirname(dirname(__DIR__)),
 ],
 ```
 
