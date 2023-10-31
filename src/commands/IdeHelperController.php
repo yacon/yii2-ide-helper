@@ -1,6 +1,6 @@
 <?php
 
-namespace hl56\IdeHelper\commands;
+namespace yacon\IdeHelper\commands;
 
 use Yii;
 use yii\console\Controller;
