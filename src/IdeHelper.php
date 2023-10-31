@@ -1,12 +1,12 @@
 <?php
 
-namespace hl56\IdeHelper;
+namespace yacon\IdeHelper;
 
 use Yii;
 use yii\base\Component;
 use yii\console\Application;
 use yii\helpers\ArrayHelper;
-use hl56\IdeHelper\commands\IdeHelperController;
+use yacon\IdeHelper\commands\IdeHelperController;
 
 /**
  * Ide helper component for Yii framework 2.x.x version.
