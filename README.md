@@ -5,7 +5,7 @@
 Require this package with composer using the following command:
 
 ```sh
-composer require hl56/yii2-ide-helper --dev
+composer require yacon/yii2-ide-helper --dev
 ```
 
 ### Usage
@@ -16,7 +16,7 @@ After updating composer, add the component to the `components` array and `bootst
 'bootstrap' => ['log', 'ideHelper'],
 'components' => [
     'ideHelper' => [
-        'class' => 'hl56\IdeHelper\IdeHelper',
+        'class' => 'yacon\IdeHelper\IdeHelper',
     ],
 ],
 ```
@@ -31,7 +31,7 @@ Now you can generate ide helper file by command:
 
 ```php
 'ideHelper' => [
-    'class' => 'hl56\IdeHelper\IdeHelper',
+    'class' => 'yacon\IdeHelper\IdeHelper',
     'rootDir' => dirname(dirname(__DIR__)),
 ],
 ```
