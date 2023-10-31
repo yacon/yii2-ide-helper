@@ -2,7 +2,7 @@
 
 /*
  * Yii2 Ide Helper
- * https://github.com/HL56/yii2-ide-helper
+ * https://github.com/yacon/yii2-ide-helper
  */
 class Yii extends \yii\BaseYii
 {
